@@ -27,28 +27,28 @@ import SearchInput from './SearchInput.vue'
             <SearchInput />
         </div>
         <div
-            class="hidden md:w-1/2 h-[calc(100vh-20vh)] md:flex relative font-DM"
+            class="hidden md:w-1/2 h-[calc(100vh-20vh)] md:flex relative font-DM gap-5"
         >
-            <div class="w-1/2 flex justify-center items-end">
+            <div class="w-1/2 flex justify-center h-[100%]">
                 <img
                     src="https://s3-alpha-sig.figma.com/img/851f/d207/c6ffd7acfd36db84b0f0c1e6369160ab?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=neQglT7dZeKQCWseGufX5JJXN3OFlLyxgMlsKCP8loMh~wIxrEqnZcsFbH3CnJff6jJhqgzbDxoUYho7s8GnJtRmKZOiDNDqf~8BN~bZsTDdf3U-siMxy25DZn~zd24AGMLUy0Bz0iU5k1TNQH7JLnMQZQLNn41zftBY6nokNdB30bq9US3KVuwlnO3nej9Y8f-PI0fAlZ3KS2dSRJtF1infqbIkwgSiL8KpJGJM5PN-iTn5FHvfT-nE7wRBrAfI-vLlEyPJJW~lG5pfgrDJM7zubiy5IPDjtt5KByJMg2uw~Pzvjbkv~cZUITJBNQBR44FZKpcnlZ2tfUmF419gTw__"
                     alt=""
-                    height="300px"
-                    width="200px"
-                    class="object-cover rounded-[20px] md:w-[300px] md:h-[400px]"
+                    height="auto"
+                    width="100%"
+                    class="object-cover rounded-[20px]"
                 />
             </div>
-            <div class="w-1/2 flex justify-center">
+            <div class="w-1/2 flex justify-center h-[100%]">
                 <img
                     src="https://s3-alpha-sig.figma.com/img/091c/43c6/8cd91a4288b7cdb67c652c962f051a3c?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O~dGVIwsd5DVn5itGgHOkRW6Mza4~N5mZALDnArUybUxrjC6mZz8EjUzcawNrf5PNcxTHYq9yWxx~xbg~hhUcixyOgNh5qdDHT-4vNFSQfBkPW~YZ9gV3YZXnG9FRVsXh0UhsNLAvV-jq7QBz-1ZZYX3M8uLhCE5oI0-3alV8y~I6D2r-F1oaWG8ybuZKXWT5rMRr5-1KR3WVBxf4-mismECAzz7vRCuId5a9yXAf9objlMwFVUHS6DPSi9zovFUdXwbrPDtwuHdX79cRG~3F6rKuXTfpv66hhXw4xdzB-18CX6oaDBQmRwaEM2EyXu-nAclp-E1kFlcHLzsSYQ8gw__"
                     alt="hinh"
-                    height="300px"
-                    width="200px"
-                    class="object-cover rounded-[20px] md:w-[300px] md:h-[400px]"
+                    height="auto"
+                    width="100%"
+                    class="object-cover rounded-[20px]"
                 />
             </div>
             <div
-                class="absolute bg-buttonColor p-4 rounded-[20px] text-white bottom-[5rem] flex flex-col lg:right-[12rem] w-[16rem] md:right-0 ring-2 ring-red-600"
+                class="absolute bg-buttonColor p-4 rounded-[20px] text-white bottom-[30%] flex flex-col md:right-[30%] w-[16rem] ring-2 ring-red-600"
             >
                 <div class="text-xl flex flex-row gap-2">
                     <div class="">
