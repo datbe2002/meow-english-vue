@@ -1,4 +1,5 @@
 <script setup>
+import { courses } from '@/database/courses'
 import Accordion from 'primevue/accordion'
 import AccordionTab from 'primevue/accordiontab'
 // const tabs = ref([
@@ -6,43 +7,43 @@ import AccordionTab from 'primevue/accordiontab'
 //     { title: 'Title 2', content: 'Content 2' },
 //     { title: 'Title 3', content: 'Content 3' }
 // ]);
-const courseData = [
-    {
-        title: 'VSTEP Online',
-        price: 'VND 2.200.000',
-        description: [
-            'Microsoft Teams-based',
-            'Recorded lessons provided',
-            'Class size from 4 to 6',
-            'Class length: 4 weeks',
-        ],
-    },
-    {
-        title: 'VSTEP Offline',
-        price: 'VND 2.400.000',
-        description: [
-            'At Thu Duc or District 12',
-            'Class size from 4 to 6',
-            'Class length: 4 weeks',
-            'Morning and weekend classes are available',
-        ],
-    },
-    {
-        title: 'TOEIC Online',
-        price: 'VND 2.400.000',
-        description: [
-            'Microsoft Teams-based',
-            'Recorded lessons provided',
-            'Class size from 4 to 6',
-            'Reliable learning materials',
-        ],
-    },
-]
+// const courseData = [
+//     {
+//         title: 'VSTEP Online',
+//         price: 'VND 2.200.000',
+//         description: [
+//             'Microsoft Teams-based',
+//             'Recorded lessons provided',
+//             'Class size from 4 to 6',
+//             'Class length: 4 weeks',
+//         ],
+//     },
+//     {
+//         title: 'VSTEP Offline',
+//         price: 'VND 2.400.000',
+//         description: [
+//             'At Thu Duc or District 12',
+//             'Class size from 4 to 6',
+//             'Class length: 4 weeks',
+//             'Morning and weekend classes are available',
+//         ],
+//     },
+//     {
+//         title: 'TOEIC Online',
+//         price: 'VND 2.400.000',
+//         description: [
+//             'Microsoft Teams-based',
+//             'Recorded lessons provided',
+//             'Class size from 4 to 6',
+//             'Reliable learning materials',
+//         ],
+//     },
+// ]
 </script>
 
 <template>
     <main
-        class="w-full pt-[13vh] md:h-fit flex flex-col px-4 sm:px-8 md:px-12 box-border font-DM"
+        class="w-full pt-[13vh] md:h-fit flex flex-col px-4 sm:px-8 md:px-12 box-border"
     >
         <div class="flex gap-5 flex-col py-4">
             <h1 class="text-5xl font-bold text-mainTextColor sm:text-center">
@@ -54,13 +55,13 @@ const courseData = [
         </div>
         <div class="w-full flex justify-center items-center">
             <div
-                class="grid grid-cols-1 lg:grid-cols-3 gap-4 w-2/3 sm:grid-cols-2"
+                class="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full md:w-2/3 sm:grid-cols-2"
             >
                 <!--  -->
                 <div
-                    v-for="(course, index) in courseData"
+                    v-for="(course, index) in courses"
                     :key="index"
-                    class="p-5 shadow-md rounded-[12px] bg-white h-fit ring-2 hover:ring-4 ring-buttonColor transition ease-in-out duration-300"
+                    class="p-5 shadow-md rounded-[12px] bg-white h-fit ring-2 hover:ring-4 hover:-translate-y-2 ring-buttonColor transition ease-in-out duration-300"
                 >
                     <p class="sm:pb-5 text-buttonColor">{{ course.title }}</p>
                     <h1

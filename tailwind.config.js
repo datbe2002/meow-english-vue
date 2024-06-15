@@ -13,6 +13,7 @@ export default {
         extend: {
             fontFamily: {
                 DM: ['DM Sans', 'sans-serif'],
+                Suisse: ['Dancing Script', 'sans-serif'],
             },
             colors: {
                 buttonColor: '#FA5959',

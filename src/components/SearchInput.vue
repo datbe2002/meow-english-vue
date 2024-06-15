@@ -19,21 +19,21 @@
         </div>
         <div class="w-[65%] md:w-[60%] flex items-center bg-white">
             <input
-                class="bg-transparent border-0 w-full h-full font-DM text-sm md:text-xl outline-none"
+                class="bg-transparent border-0 w-full h-full text-sm md:text-xl outline-none"
                 type="text"
                 placeholder="What do you want to learn"
             />
         </div>
         <div class="hidden lg:w-[30%] lg:block">
             <button
-                class="bg-buttonColor outline-none w-full h-full rounded-e-[15px] text-white text-lg md:text-xl font-DM border-0 cursor-pointer hover:bg-red-600 transition ease-in-out duration-500"
+                class="bg-buttonColor outline-none w-full h-full rounded-e-[15px] text-white text-lg md:text-xl border-0 cursor-pointer hover:bg-red-600 transition ease-in-out duration-500"
             >
                 Search Course
             </button>
         </div>
         <div class="w-[20%] lg:hidden">
             <button
-                class="py-3 bg-buttonColor outline-none w-full h-full rounded-e-[15px] text-white text-sm md:text-xl font-DM border-0 cursor-pointer hover:bg-red-600 transition ease-in-out duration-500"
+                class="py-3 bg-buttonColor outline-none w-full h-full rounded-e-[15px] text-white text-sm md:text-xl border-0 cursor-pointer hover:bg-red-600 transition ease-in-out duration-500"
             >
                 Search
             </button>

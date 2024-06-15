@@ -20,7 +20,7 @@ const arrNav = ref([
     <header
         class="h-[13vh] px-4 sm:px-8 md:px-12 flex justify-center items-center bg-backgroundColor w-full fixed z-50 box-border"
     >
-        <div class="w-full font-DM px-2 flex flex-row justify-between">
+        <div class="w-full px-2 flex flex-row justify-between">
             <div class="w-1/2">
                 <img
                     @:click="handleNavToHome"
@@ -32,7 +32,7 @@ const arrNav = ref([
                 />
             </div>
             <nav
-                class="hidden md:flex w-1/2 flex-row justify-center items-center gap-10 xl:text-[20px] lg:text-[16px]"
+                class="hidden md:flex w-1/2 flex-row justify-end items-center gap-10 xl:text-[20px] lg:text-[16px]"
             >
                 <RouterLink
                     v-for="(nav, index) in arrNav"

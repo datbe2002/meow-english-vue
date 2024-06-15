@@ -27,7 +27,7 @@ import SearchInput from './SearchInput.vue'
             <SearchInput />
         </div>
         <div
-            class="hidden md:w-1/2 h-[calc(100vh-20vh)] md:flex relative font-DM gap-5"
+            class="hidden md:w-1/2 h-[calc(100vh-20vh)] md:flex relative gap-5"
         >
             <div class="w-1/2 flex justify-center h-[100%]">
                 <img

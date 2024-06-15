@@ -123,7 +123,7 @@ import { RouterLink } from 'vue-router'
                     />
                 </div>
             </div>
-            <p class="font-DM p-8 text-start md:text-center md:text-lg md:p-4">
+            <p class="p-8 text-start md:text-center md:text-lg md:p-4">
                 © 2024 Made by TruongTanDat. All rights reserved.
             </p>
         </div>
